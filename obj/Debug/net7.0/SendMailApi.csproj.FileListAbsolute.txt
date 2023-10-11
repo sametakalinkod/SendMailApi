@@ -1,5 +1,6 @@
 C:\Users\samet.akalin\Desktop\İbrahim Samet AKALIN\SendMailApi\bin\Debug\net7.0\appsettings.Development.json
 C:\Users\samet.akalin\Desktop\İbrahim Samet AKALIN\SendMailApi\bin\Debug\net7.0\appsettings.json
+C:\Users\samet.akalin\Desktop\İbrahim Samet AKALIN\SendMailApi\bin\Debug\net7.0\appsettings.Local.json
 C:\Users\samet.akalin\Desktop\İbrahim Samet AKALIN\SendMailApi\bin\Debug\net7.0\SendMailApi.exe
 C:\Users\samet.akalin\Desktop\İbrahim Samet AKALIN\SendMailApi\bin\Debug\net7.0\SendMailApi.deps.json
 C:\Users\samet.akalin\Desktop\İbrahim Samet AKALIN\SendMailApi\bin\Debug\net7.0\SendMailApi.runtimeconfig.json
@@ -38,4 +39,3 @@ C:\Users\samet.akalin\Desktop\İbrahim Samet AKALIN\SendMailApi\obj\Debug\net7.0
 C:\Users\samet.akalin\Desktop\İbrahim Samet AKALIN\SendMailApi\obj\Debug\net7.0\SendMailApi.pdb
 C:\Users\samet.akalin\Desktop\İbrahim Samet AKALIN\SendMailApi\obj\Debug\net7.0\SendMailApi.genruntimeconfig.cache
 C:\Users\samet.akalin\Desktop\İbrahim Samet AKALIN\SendMailApi\obj\Debug\net7.0\ref\SendMailApi.dll
-C:\Users\samet.akalin\Desktop\İbrahim Samet AKALIN\SendMailApi\bin\Debug\net7.0\appsettings.Local.json

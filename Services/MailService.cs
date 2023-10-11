@@ -9,19 +9,19 @@ namespace SendMailApi.Services
 {
     public class MailService : IMailService
     {
-        private readonly IMailSettings _mailSettings;
+        private readonly MailSettings _mailSettings;
 
 
 
-        //public MailService(IOptions<MailSettings> mailSettings)
-        //{
-        //    _mailSettings = mailSettings.Value;
-        //}
-
-        public MailService(IMailSettings mailSettings)
+        public MailService(IOptions<MailSettings> mailSettings)
         {
-            _mailSettings = mailSettings ?? throw new ArgumentNullException(nameof(mailSettings));
+            _mailSettings = mailSettings.Value;
         }
+
+        //public MailService(IMailSettings mailSettings)
+        //{
+        //    _mailSettings = mailSettings ?? throw new ArgumentNullException(nameof(mailSettings));
+        //}
 
         public async Task SendEmailAsync(MailRequest mailRequest)
         {

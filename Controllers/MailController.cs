@@ -6,7 +6,7 @@ using SendMailApi.Services;
 namespace SendMailApi.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     public class MailController : ControllerBase
     {
         //public readonly IMediator _mediator;
@@ -26,7 +26,7 @@ namespace SendMailApi.Controllers
         //    return Ok(await _mediator.Send(getECollectionByIdQuery));
         //}
         [HttpPost("SendFormToMail")]
-        public async Task<IActionResult> SendFormToMail([FromForm] MailRequest request)
+        public async Task<IActionResult> SendFormToMail([FromBody] MailRequest request)
         {
             try
             {
