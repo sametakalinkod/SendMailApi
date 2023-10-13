@@ -1,7 +1,10 @@
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json.Linq;
 using SendMailApi.Services;
+using SendMailApi.Settings;
 
 namespace SendMailApi.Controllers
 {
@@ -25,12 +28,13 @@ namespace SendMailApi.Controllers
         //{
         //    return Ok(await _mediator.Send(getECollectionByIdQuery));
         //}
+        [EnableCors("AllowCors")]
         [HttpPost("SendFormToMail")]
-        public async Task<IActionResult> SendFormToMail([FromBody] MailRequest request)
+        public async Task<IActionResult> SendFormToMail([FromBody] MailRequest jsonData)
         {
             try
             {
-                await _mailService.SendEmailAsync(request);
+                await _mailService.SendEmailAsync(jsonData);
                 return Ok();
             }
             catch (Exception ex)

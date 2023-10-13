@@ -20,7 +20,9 @@ namespace SendMailApi
                   Host.CreateDefaultBuilder(args)
                       .ConfigureWebHostDefaults(webBuilder =>
                       {
+                          //webBuilder.UseUrls("http://localhost:5188/", "http://192.168.40.134:5010");
                           webBuilder.UseStartup<Startup>();
+                          //webBuilder.UseStartup<Startup>();
                       });
 
     }
