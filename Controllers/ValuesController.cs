@@ -22,10 +22,10 @@ namespace SendMailApi.Controllers
         //    return Ok(await _mediator.Send(getECollectionByIdQuery));
         //}
         // GET api/values
-        [HttpGet(Name = "Get")]
-        public ActionResult<IEnumerable<string>> Get()
-        {
-            return new string[] { "value1", "value2" };
-        }
+        //[HttpGet(Name = "Get")]
+        //public ActionResult<IEnumerable<string>> Get()
+        //{
+        //    return new string[] { "value1", "value2" };
+        //}
     }
 }

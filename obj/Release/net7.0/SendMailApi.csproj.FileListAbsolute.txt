@@ -39,3 +39,5 @@ C:\Users\samet.akalin\Desktop\İbrahim Samet AKALIN\SendMailApi\obj\Release\net7
 C:\Users\samet.akalin\Desktop\İbrahim Samet AKALIN\SendMailApi\obj\Release\net7.0\SendMailApi.pdb
 C:\Users\samet.akalin\Desktop\İbrahim Samet AKALIN\SendMailApi\obj\Release\net7.0\SendMailApi.genruntimeconfig.cache
 C:\Users\samet.akalin\Desktop\İbrahim Samet AKALIN\SendMailApi\obj\Release\net7.0\ref\SendMailApi.dll
+C:\Users\samet.akalin\Desktop\İbrahim Samet AKALIN\SendMailApi\bin\Release\net7.0\Newtonsoft.Json.dll
+C:\Users\samet.akalin\Desktop\İbrahim Samet AKALIN\SendMailApi\bin\Release\net7.0\System.Security.Permissions.dll

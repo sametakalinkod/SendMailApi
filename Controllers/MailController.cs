@@ -28,7 +28,7 @@ namespace SendMailApi.Controllers
         //{
         //    return Ok(await _mediator.Send(getECollectionByIdQuery));
         //}
-        [EnableCors("AllowCors")]
+        //[EnableCors("AllowCors")]
         [HttpPost("SendFormToMail")]
         public async Task<IActionResult> SendFormToMail([FromBody] MailRequest jsonData)
         {

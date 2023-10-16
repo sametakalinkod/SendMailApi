@@ -19,6 +19,11 @@ namespace SendMailApi
 
         public void ConfigureServices(IServiceCollection services)
         {
+            // Configure MailSettings
+            services.Configure<MailSettings>(Configuration.GetSection("MailSettings"));
+
+            // Register MailService
+            services.AddScoped<IMailService, MailService>();
 
             services.AddCors(options => options.AddPolicy("AllowCors",
                builder =>
@@ -28,20 +33,10 @@ namespace SendMailApi
                        .WithMethods("GET", "PUT", "POST", "DELETE")
                        .AllowAnyHeader();
                }));
-            services.AddCors(options =>
-            {
-                options.AddPolicy("AllowLocalhost",
-                    builder => builder.WithOrigins("http://localhost:5188", "http://127.0.0.1:5500")
-                                       .AllowAnyHeader()
-                                       .AllowAnyMethod());
-            });
+ 
             services.AddControllers();
 
-            // Configure MailSettings
-            services.Configure<MailSettings>(Configuration.GetSection("MailSettings"));
-
-            // Register MailService
-            services.AddScoped<IMailService, MailService>();
+      
 
 
 
@@ -58,7 +53,7 @@ namespace SendMailApi
                 app.UseExceptionHandler("/Home/Error");
                 app.UseHsts();
             }
-
+     
             app.UseHttpsRedirection();
             app.UseRouting();
             app.UseCors("AllowLocalhost");

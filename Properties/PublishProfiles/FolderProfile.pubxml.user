@@ -5,7 +5,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project>
   <PropertyGroup>
     <_PublishTargetUrl>C:\Users\samet.akalin\Desktop\İbrahim Samet AKALIN\SendMailApi\bin\Release\net7.0\publish\</_PublishTargetUrl>
-    <History>True|2023-10-12T13:10:14.9762719Z;</History>
+    <History>True|2023-10-13T10:16:05.6364429Z;True|2023-10-13T13:12:26.2537861+03:00;True|2023-10-12T16:10:14.9762719+03:00;</History>
     <LastFailureDetails />
   </PropertyGroup>
 </Project>

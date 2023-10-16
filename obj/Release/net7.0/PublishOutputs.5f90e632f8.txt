@@ -13,8 +13,10 @@ C:\Users\samet.akalin\Desktop\İbrahim Samet AKALIN\SendMailApi\obj\Release\net7
 C:\Users\samet.akalin\Desktop\İbrahim Samet AKALIN\SendMailApi\obj\Release\net7.0\PubTmp\Out\Microsoft.AspNetCore.OpenApi.dll
 C:\Users\samet.akalin\Desktop\İbrahim Samet AKALIN\SendMailApi\obj\Release\net7.0\PubTmp\Out\Microsoft.OpenApi.dll
 C:\Users\samet.akalin\Desktop\İbrahim Samet AKALIN\SendMailApi\obj\Release\net7.0\PubTmp\Out\MimeKit.dll
+C:\Users\samet.akalin\Desktop\İbrahim Samet AKALIN\SendMailApi\obj\Release\net7.0\PubTmp\Out\Newtonsoft.Json.dll
 C:\Users\samet.akalin\Desktop\İbrahim Samet AKALIN\SendMailApi\obj\Release\net7.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\samet.akalin\Desktop\İbrahim Samet AKALIN\SendMailApi\obj\Release\net7.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\samet.akalin\Desktop\İbrahim Samet AKALIN\SendMailApi\obj\Release\net7.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\samet.akalin\Desktop\İbrahim Samet AKALIN\SendMailApi\obj\Release\net7.0\PubTmp\Out\System.Security.Cryptography.Pkcs.dll
+C:\Users\samet.akalin\Desktop\İbrahim Samet AKALIN\SendMailApi\obj\Release\net7.0\PubTmp\Out\System.Security.Permissions.dll
 C:\Users\samet.akalin\Desktop\İbrahim Samet AKALIN\SendMailApi\obj\Release\net7.0\PubTmp\Out\runtimes\win\lib\net7.0\System.Security.Cryptography.Pkcs.dll
